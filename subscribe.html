@@ -1,0 +1,72 @@
+<!DOCTYPE htaml>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="home.css">
+        <title>Book Store</title>
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="site-identity">
+                <a href="home.html"><h1 class="title">Shelby Book Store</h1></a>
+            </div>
+            <nav class="site-navigation">
+                <ul class="nav">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="subscribe.html">Subscribe</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="background">
+            <center>
+                <h2 style="margin-top: 0px; padding-top: 10px; ">Subscribe for more Updates!</h2>
+            </center>
+            <form>
+                <label for="name">First name :</label>
+                <div>
+                     <input type="text" name="myName" id="name">
+                </div>
+                
+                <label for="name">Last name :</label>
+                <div>
+                     <input type="text" name="myName" id="name">
+                </div>
+            
+                <label >Email :</label>
+                <div>                
+                    <input type="email" name="myEmail">
+                </div>
+        
+                <label>Date of Birth :</label> 
+                <div>                
+                    <input type="date" name="myDate">
+                </div>
+                <br>
+                <div>                
+                    Are you interested in latest updates? <input type="checkbox" name="myEligibility" checked>
+                </div>
+                
+                <br>
+                <div>                
+                    Gender : Male <input type="radio" name="myGender">
+                    Female <input type="radio" name="myGender">
+                    Other <input type="radio" name="myGender">
+                </div>
+        
+                <br> 
+                <div> 
+                What do you think about our store? <br><textarea class="info" name="myText" id="" cols="50" rows="10"></textarea>
+                </div>
+        
+            <br>
+                <button class="button">
+                    <span>Submit</span>
+                </button>
+            </form>
+      </body>
+    </html>

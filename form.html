@@ -1,0 +1,34 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <button onclick="ip()">click</button>
+    <h1 id="demo"></h1>
+   <script>
+
+        function ip() {
+            var x = prompt("enter your maths marks");
+            var y = prompt("enter your science marks");
+            var z = prompt("enter total marks");
+
+            var marks1 = parseInt(x);
+            var marks2 = parseInt(y);
+            var tmarks = parseInt(y);
+            var per = ((marks1+marks2)*100)/tmarks;
+            document.getElementById("demo").innerHTML = per;
+        }
+
+    </script>
+
+
+</body>
+
+</html>

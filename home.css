@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Combo&family=Dancing+Script&family=Kanit:wght@200&display=swap');
+
+.title{
+    color: rgb(151, 22, 151);
+    font-family: 'Combo', cursive;
+   }
+header{
+    background-color: blanchedalmond;
+    margin: 0px;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0px;
+
+}
+
+.nav {
+    text-decoration: none;
+    color: rgb(151, 22, 151);
+    font-weight: bold;
+}
+.nav :hover {
+    color: rgb(202, 187, 202);
+}
+button:hover{
+    background-color: #90cf92;
+}
+.site-header {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5em 1em;
+    display: flex;
+    justify-content: space-between;
+}
+.site-identity h1 {
+    font-size: 1.5em;
+    margin: 0.6em 0;
+    display: inline-block;
+}
+.site-navigation ul,
+.site-navigation li {
+    margin: 0;
+    padding: 0;
+}
+.site-navigation li {
+    display: inline-block;
+    margin: 1.4em 1em 1em 1em;
+}
+
+.abt{
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bg{
+    z-index: -1;
+    opacity: 73%;
+    height: 90.2%;
+    width: 100%;
+}
+.img{
+    border: 3px solid black;
+}
+.book1{
+    position: absolute;
+    top: 150px;
+    left: 247px;
+}
+.book2{
+    position: absolute;
+    top: 150px;
+    left: 700px;
+}
+.book3{
+    position: absolute;
+    top: 150px;
+    right: 255px;
+}
+.book4{
+    position: absolute;
+    bottom: 50px;
+    left: 250px;
+}
+.book5{
+    position: absolute;
+    bottom: 50px;
+    left: 700px;
+}
+.book6{
+    position: absolute;
+    bottom: 50px;
+    right: 250px;
+}
+form{
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+}
+.button{  
+    background-color: #4caf50;  
+    border: none;  
+    border-radius: 8px;  
+    padding: 10px 20px;  
+    margin: 2px 4px;  
+    cursor: pointer; 
+    border: 2px solid black; 
+   }  
+  
+input[type=text]{  
+    padding: 5px;  
+    margin: 5px 0;  
+   box-shadow: 0 0 15px 4px rgba(0,0,0,0.0.6);  
+   border-radius: 5px;  
+    border: 2px solid black;  
+}
+input[type=date]{  
+    padding: 5px;  
+    margin: 5px 0;  
+   box-shadow: 0 0 15px 4px rgba(0,0,0,0.0.6);  
+   border-radius: 5px;  
+    border: 2px solid black;  
+}
+input[type=email]{  
+    padding: 5px;  
+    margin: 5px 0;  
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.0.6);  
+   border-radius: 5px;  
+    border: 2px solid black;  
+}
+.info{
+    padding: 5px;  
+    margin: 5px 0;  
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.0.6);  
+   border-radius: 10px;  
+    border: 2px solid black;  
+
+}
+.background{
+    background-color: burlywood;
+    height: 90.2%;
+    margin-top: 0%;
+}
+.image1{
+    margin: 10px;
+}
+.authname{
+    padding: 0;
+    margin: 0;
+
+}
+.bookname{
+    margin: 0;
+    padding: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+    font-family: 'Bebas Neue', cursive;
+}
+.description{
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
+}
